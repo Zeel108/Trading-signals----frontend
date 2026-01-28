@@ -320,6 +320,36 @@ Copy the generated whsec_... into .env.
 * Email notifications
 * Rate limiting
 
+# Screen Shots
+
+* ### **LOGIN and SIGNUP**
+<img width="1913" height="1080" alt="Screenshot (995)" src="https://github.com/user-attachments/assets/20a7960a-565a-4fd1-b00b-2d7ac320e3ee" />
+<img width="1913" height="1080" alt="Screenshot (996)" src="https://github.com/user-attachments/assets/7d9e5dae-4ef7-4259-937b-a66c2ba40461" />
+
+* ### **Subscribed user dashboard**
+
+<img width="1895" height="1080" alt="Screenshot (997)" src="https://github.com/user-attachments/assets/3429c2f2-38a7-421f-bdf3-8174adc09f75" />
+<img width="1909" height="1080" alt="Screenshot (998)" src="https://github.com/user-attachments/assets/4bc61def-c183-4631-b613-eef37501500f" />
+<img width="1913" height="1080" alt="Screenshot (999)" src="https://github.com/user-attachments/assets/0a89faf0-ab88-4168-8f74-9893cb2ea240" />
+<img width="1902" height="1080" alt="Screenshot (1000)" src="https://github.com/user-attachments/assets/c39a8af9-cca6-4f46-ab74-2d091665a268" />
+<img width="1898" height="1080" alt="Screenshot (1001)" src="https://github.com/user-attachments/assets/2879fb1c-388f-4ac2-b434-6803eb6fca7a" />
+
+* ### **Unsbscibed user dashboard**
+
+<img width="1911" height="1080" alt="Screenshot (1003)" src="https://github.com/user-attachments/assets/9bb6cc6b-0fa4-4f60-b35a-b2796281522d" />
+<img width="1913" height="1080" alt="Screenshot (1004)" src="https://github.com/user-attachments/assets/273a4337-7638-44aa-9307-5ab6a6f6d581" />
+
+* ### **Stripe Payment ui**
+<img width="1873" height="1080" alt="Screenshot (1005)" src="https://github.com/user-attachments/assets/3ca0b6cc-b43e-473b-a231-5eeb15f88939" />
+<img width="1902" height="1080" alt="Screenshot (1006)" src="https://github.com/user-attachments/assets/441ad8f6-2242-46b7-867c-6959aab13e55" />
+<img width="1878" height="1080" alt="Screenshot (1007)" src="https://github.com/user-attachments/assets/ec630ffc-e703-4b04-8277-341d97e08bde" />
+<img width="1893" height="1080" alt="Screenshot (1008)" src="https://github.com/user-attachments/assets/1c65ff48-0185-4b72-ab54-e0329c8839ed" />
+
+* ### **Success page**
+
+<img width="1895" height="1080" alt="Screenshot (1010)" src="https://github.com/user-attachments/assets/1d7f0658-5dee-47a1-b2d7-4dc90cdb77f3" />
+
+
 ## **👤 Author**
 
 Zeel Mavani
