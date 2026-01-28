@@ -53,7 +53,7 @@ const Dashboard = () => {
     { id: "symbol", label: "Symbol", numeric: false },
     { id: "name", label: "Name", numeric: false },
     { id: "prChange", label: "Price change", numeric: false },
-    { id: "prcChange", label: "Change", numeric: false },
+    { id: "percChange", label: "Change", numeric: false },
     { id: "price", label: "Entry Price", numeric: true },
     { id: "rsi", label: "RSI", numeric: false },
     { id: "macd", label: "MACD", numeric: true },
@@ -66,11 +66,11 @@ const Dashboard = () => {
     symbol: sig.symbol,
     name: sig.name,
     prChange:sig.prChange,
-    prcChange:sig.prcChange,
+    percChange:sig.percChange,
     price: sig.price,
     rsi:sig.rsi,
     macd:sig.macd,
-    date: new Date(sig.created_at).toLocaleDateString(),
+    date: sig.date,
   }));
 
   return (
@@ -93,7 +93,7 @@ const Dashboard = () => {
 
       <hr />
 
-      <h2>Welcome {user.email}</h2>
+      <h2>Welcome , {user.email}</h2>
 
       {/* Render Table */}
       <Table columns={columns} rows={rows} title="Trading Signals" />
