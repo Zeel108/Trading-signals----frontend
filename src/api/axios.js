@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000", // replace with Render backend URL
+  baseURL: "https://trading-signals-backend-t8g8.onrender.com", 
 });
 
 API.interceptors.request.use((config) => {

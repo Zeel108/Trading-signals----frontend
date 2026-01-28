@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import API from "../api/axios";
+import Button from "../common/Button";
 import React from 'react'
 
 const Login = () => {
@@ -14,7 +15,7 @@ const Login = () => {
     try {
       const res = await API.post("/auth/login", { email, password });
       localStorage.setItem("access_token", res.data.access_token);
-      navigate("/dashboard");
+      navigate("/");
     } catch (err) {
       alert(err.response?.data?.detail || "Login failed");
     }
@@ -24,12 +25,22 @@ const Login = () => {
   return (
     
     <div style={{textAlign:'center'}}>
+       <div className="auth-page">
+      <div className="auth-box">
     <form onSubmit={handleLogin}>
       <h2>Login</h2>
+      <div>
       <input placeholder="Email" onChange={e => setEmail(e.target.value)} />
+      </div>
+      <div>
       <input type="password" placeholder="Password" onChange={e => setPassword(e.target.value)} />
-      <button type="submit">Login</button>
+      </div>
+      <Button text="Login" type="submit" />
+      <div style={{marginTop:'15px', cursor:"pointer"}}><Link to="/signup" style={{textDecoration:"none", fontWeight:"500"}}>Signup</Link>
+      </div>
     </form>
+    </div>
+    </div>
 
     </div>
   )
