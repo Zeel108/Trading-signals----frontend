@@ -53,7 +53,7 @@ const Dashboard = () => {
     { id: "symbol", label: "Symbol", numeric: false },
     { id: "name", label: "Name", numeric: false },
     { id: "prChange", label: "Price change", numeric: false },
-    { id: "percChange", label: "Change", numeric: false },
+    { id: "percChange", label: "Percentage Change", numeric: false },
     { id: "price", label: "Entry Price", numeric: true },
     { id: "rsi", label: "RSI", numeric: false },
     { id: "macd", label: "MACD", numeric: true },
