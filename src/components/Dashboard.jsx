@@ -51,20 +51,26 @@ const Dashboard = () => {
   const columns = [
     { id: "id", label: "ID", numeric: true },
     { id: "symbol", label: "Symbol", numeric: false },
-    { id: "signal", label: "Signal Type", numeric: false },
+    { id: "name", label: "Name", numeric: false },
+    { id: "prChange", label: "Price change", numeric: false },
+    { id: "prcChange", label: "Change", numeric: false },
     { id: "price", label: "Entry Price", numeric: true },
-    { id: "stoploss", label: "Stop Loss", numeric: true },
-    { id: "time", label: "Date", numeric: false },
+    { id: "rsi", label: "RSI", numeric: false },
+    { id: "macd", label: "MACD", numeric: true },
+    { id: "date", label: "Date", numeric: false },
   ];
 
   // Map signals into rows for Table
   const rows = signals.map((sig, index) => ({
     id: index + 1,
     symbol: sig.symbol,
-    signal: sig.signal,
+    name: sig.name,
+    prChange:sig.prChange,
+    prcChange:sig.prcChange,
     price: sig.price,
-    stoploss: sig.stoploss,
-    time: new Date(sig.created_at).toLocaleDateString(),
+    rsi:sig.rsi,
+    macd:sig.macd,
+    date: new Date(sig.created_at).toLocaleDateString(),
   }));
 
   return (
