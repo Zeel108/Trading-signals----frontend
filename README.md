@@ -4,7 +4,7 @@ A full-stack SaaS application that provides trading signals with paid subscripti
 
 [**Try it out**]
 
-(https://trading-signals-frontend.onrender.com)
+(https://trading-signals-frontend.onrender.com/login)
 
 ## 🔥 **Features** 
 * User authentication (Signup / Login with JWT)
